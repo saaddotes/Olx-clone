@@ -1,0 +1,28 @@
+.height-custom {
+    height: 2.5rem;
+}
+
+.lineheight-custom {
+    line-height: 2.5;
+}
+
+.width-custom {
+    width: 7rem;
+}
+
+.width-card {
+    width: 18rem;
+}
+
+.bg-dark-subtle {
+    background-color: #002f3408;
+}
+
+.bg-gray-subtle {
+    background-color:#ebeeef ;
+}
+
+.myLink {
+    text-decoration: none;
+    color: #222121;
+}

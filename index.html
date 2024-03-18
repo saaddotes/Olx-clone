@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OLX - Buy and Sell</title>
+    <!-- Bootstrap Link -->
+    <link rel="stylesheet" href="bootstrap.css">
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/87bd7546eb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="container d-flex gap-3 align-items-center">
+        <div class="icon">
+            <svg height="20" viewBox="0 0 36.289 20.768" alt="Logo" class="_10c831ef">
+                <path
+                    d="M18.9 20.77V0h4.93v20.77zM0 10.39a8.56 8.56 0 1 1 8.56 8.56A8.56 8.56 0 0 1 0 10.4zm5.97-.01a2.6 2.6 0 1 0 2.6-2.6 2.6 2.6 0 0 0-2.6 2.6zm27 5.2l-1.88-1.87-1.87 1.88H25.9V12.3l1.9-1.9-1.9-1.89V5.18h3.27l1.92 1.92 1.93-1.92h3.27v3.33l-1.9 1.9 1.9 1.9v3.27z">
+                </path>
+            </svg>
+        </div>
+        <div class="motors">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                class="_3b2d77d8" alt="OLX Motors">
+                <path
+                    d="M23.75 8.38a1.66 1.66 0 0 0-2.08-1.08l-.92.3-1.59-3.35-.5-.17a24.01 24.01 0 0 0-7.16-1c-2.23-.06-4.44.28-6.54 1.03l-.45.18-1.52 3.5-.64-.2a1.66 1.66 0 1 0-1 3.17l.12.04-.1.18a6.1 6.1 0 0 0-.61 2.26c-.01.37 0 1.11.03 1.83l.01 4v.03c-.02.36.02.73.12 1.08a1.1 1.1 0 0 0 1.11.74H4.4a1.1 1.1 0 0 0 1.1-.74c.1-.35.15-.72.13-1.08v-.44c2.76.25 4.53.37 6.28.37 1.74 0 3.45-.12 6.1-.36v.43c-.02.36.02.73.12 1.08a1.1 1.1 0 0 0 1.11.74h2.37a1.1 1.1 0 0 0 1.11-.74c.1-.35.14-.72.12-1.08l.01-3.96v-.03c.05-.74.1-1.5.1-1.93a5.6 5.6 0 0 0-.64-2.35l-.1-.21.47-.15a1.66 1.66 0 0 0 1.08-2.09zM5.37 5.18h.02c1.96-.69 4.03-1 6.1-.94 2.3-.04 4.6.28 6.8.93l.04.02 1.3 2.74a26.7 26.7 0 0 1-6.42.62h-1.06c-2.69.1-5.37-.05-8.03-.45l1.26-2.92zm-.9 13.92c0 .22-.01.45-.05.66H2a3.25 3.25 0 0 1-.04-.66v-.87c.16.08.33.13.5.15l2.02.18v.54zm17.2-.04v.04c0 .23-.01.45-.05.67h-2.44a3.26 3.26 0 0 1-.03-.67v-.53l1.88-.18c.22-.02.44-.09.63-.2v.87zm.64-9.7l-1.76.57.71 1.43c.3.57.48 1.2.5 1.85.02.37-.03 1.06-.07 1.7h-.01v.2l-.07 1.06c-.01.43-.28 1.05-.7 1.1-4.48.41-6.74.62-9 .62-2.28 0-4.66-.21-9.35-.64-.28-.03-.47-.48-.53-.9-.04-.3-.08-.79-.1-1.3v-.14a25.4 25.4 0 0 1-.02-1.62c.05-.61.21-1.21.48-1.77l.77-1.39-1.47-.46a.5.5 0 0 1 .3-.97l1.63.52.02-.02c2.45.43 4.94.6 7.43.52h2.13a26.8 26.8 0 0 0 6.92-.7l.49-.15L22 8.4a.51.51 0 0 1 .63.33.5.5 0 0 1-.33.64z">
+                </path>
+                <path
+                    d="M4.54 12.08a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zm0 2.46a.65.65 0 1 1 0-1.3.65.65 0 0 1 0 1.3zm14.57-2.46a1.8 1.8 0 1 0 0 3.6 1.8 1.8 0 0 0 0-3.6zm0 2.46a.65.65 0 1 1 0-1.3.65.65 0 0 1 0 1.3zm-11.71.28h8.96v1.15H7.4v-1.15z">
+                </path>
+            </svg>
+            <span>Property</span>
+        </div>
+        <div class="property">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="_3b2d77d8"
+                alt="OLX Property">
+                <path
+                    d="M22.78 21.81V7.8L15.3 5.3v1.58l5.98 2V21.8H13.8V.7H1.22v21.1h-.6v1.5h22.76v-1.5h-.6zM12.3 4.3v17.5H2.72V2.2h9.58v2.1z">
+                </path>
+                <path
+                    d="M7.98 4.37h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zM7.98 6.8h2.42V8H7.98V6.8zm-3.63 0h2.42V8H4.35V6.8zm3.63 3.62h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm3.63 2.42h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm3.63 3.63h2.42v1.21H7.98v-1.2zm-3.63 0h2.42v1.21H4.35v-1.2zm13.31-6.05h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2zm2.42 2.42h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2zm2.42 3.63h1.21v1.21h-1.2v-1.2zm-2.42 0h1.21v1.21h-1.2v-1.2z">
+                </path>
+            </svg>
+            <span>Motors</span>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="h-100">
+                    <select name="location" id="" class="h-100 w-100 px-2">
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Islamabad">Islamabad</option>
+                        <option value="Karachi">Karachi</option>
+                        <option value="Lahore">Lahore</option>
+                        <option value="Multan">Multan</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="col-lg-7">
+                <div class="h-100 d-flex">
+                    <input id="searchbar" type="text" name="searchbar"
+                        placeholder="Find Cars, Mobile Phones and more..." class="h-100 w-100 px-2">
+                    <div class="h-100 bg-dark">
+                        <i class="fa-solid fa-magnifying-glass fs-5 px-3 text-white lineheight-custom"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <span class="lineheight-custom">Login</span>
+                <button class="btn btn-rounded border-dark h-100"><i class="fa-solid fa-plus"></i>SELL</button>
+            </div>
+        </div>
+
+
+    </div>
+    <hr />
+
+    <div class="container">
+        <ul class="nav">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    ALL CATEGORIES
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <li><a class="nav-link text-dark" href="#">Mobile Phones</a></li>
+            <li><a class="nav-link text-dark" href="#">Cars</a></li>
+            <li><a class="nav-link text-dark" href="#">Motorcycles</a></li>
+            <li><a class="nav-link text-dark" href="#">Houses</a></li>
+            <li><a class="nav-link text-dark" href="#">Video-Audios</a></li>
+            <li><a class="nav-link text-dark" href="#">Tablets</a></li>
+            <li><a class="nav-link text-dark" href="#">Land & Plots</a></li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <img class="w-100" src="images/439390835-800x600.webp" alt="">
+    </div>
+
+    <div class="container">
+        <h3>All Categories</h3>
+        <div class="d-flex  gap-5 flex-wrap">
+            <div class="text-center width-custom">
+                <img src="images/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png" alt="Mobile" width="88">
+                <p>Mobiles</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/vehicles.29fb808d5118f0db56f68a39ce5392e2.png" alt="Mobile" width="88">
+                <p>Vehicles</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png" alt="Mobile" width="88">
+                <p>Property For Sale</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/property-for-rent.8436595fbaa90d47f0178006f57090a8.png" alt="Mobile" width="88">
+                <p>Property For Rent</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png" alt="Mobile"
+                    width="88">
+                <p>electronics-home-appliances</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png" alt="Mobile" width="88">
+                <p>Bikes</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png" alt="Mobile"
+                    width="88">
+                <p>Business,Industrial & Agriculture</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/services.dc6aef196c0403dc61b0ee813f66fa5b.png" alt="Mobile" width="88">
+                <p>Service</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/jobs.79e6136dda02111cf8e7afe26b9e0f93.png" alt="Mobile" width="88">
+                <p>Jobs</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/animals.62d396e85f7523dbc8ff23889fdd5c31.png" alt="Mobile" width="88">
+                <p>Animals</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png" alt="Mobile" width="88">
+                <p>Furniture & Home Decor</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png" alt="Mobile" width="88">
+                <p>Fashion & Beauty</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png" alt="Mobile" width="88">
+                <p>Books, Sports & Hobbies</p>
+            </div>
+            <div class="text-center width-custom">
+                <img src="images/kids.cd8d8864804f1c35dd6a7df68268a48d.png" alt="Mobile" width="88">
+                <p>Kids</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h3>Mobile Phone</h3>
+        <div class="d-flex flex-wrap gap-3">
+            <div class="card width-card">
+                <div style="background-image: url(images/421973043-240x180.jpeg); height: 10rem;">
+                </div>
+                <div>
+                    <h5>Rs 4,500</h5>
+                    <p>Infinix Hot 40 avail on easy installments</p>
+                    <p>Shalimar Link Road, Lahore</p>
+                    <span>2 week ago</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class=" mt-5">
+        <div class="bg-dark-subtle">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <div>
+                            <img src="images/olxMobileApp.f5579f77e849b600ad60857e46165516.webp" alt="Mobile App"
+                                class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <h3>TRY THE OLX APP</h3>
+                            <p>Buy, sell and find just about anything using the app on your mobile.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div>
+                            <h5>GET YOUR APP TODAY</h5>
+                            <div class="d-flex">
+                                <img src="images/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                                    alt="App Store" width="130" class="bb5713d0">
+                                <img src="images/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                                    alt="App Store" width="130" class="bb5713d0">
+                                <img src="images/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
+                                    alt="App Store" width="130" class="bb5713d0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-subtle pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2">
+                        <p class="fw-bold mb-0">POPULAR CATEGORIES</p>
+                        <ul class="list-unstyled">
+                            <li><a class="myLink" href="#">Cars</a></li>
+                            <li><a class="myLink" href="#">Flat for rent</a></li>
+                            <li><a class="myLink" href="#">Mobile Phones</a></li>
+                            <li><a class="myLink" href="#">Jobs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="fw-bold mb-0">TRENDING SEARCHES</p>
+                        <ul class="list-unstyled">
+                            <li><a class="myLink" href="#">Bikes</a></li>
+                            <li><a class="myLink" href="#">Watches</a></li>
+                            <li><a class="myLink" href="#">Books</a></li>
+                            <li><a class="myLink" href="#">Dogs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="fw-bold mb-0">ABOUT US</p>
+                        <ul class="list-unstyled">
+                            <li><a class="myLink" href="#">About Dubizzle Group</a></li>
+                            <li><a class="myLink" href="#">OLX Blogs</a></li>
+                            <li><a class="myLink" href="#">Contact Us </a></li>
+                            <li><a class="myLink" href="#">OLX for Businesses</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <p class="fw-bold mb-0">OLX</p>
+                        <ul class="list-unstyled">
+                            <li><a class="myLink" href="#">Help</a></li>
+                            <li><a class="myLink" href="#">Sitemap</a></li>
+                            <li><a class="myLink" href="#">Terms of use</a></li>
+                            <li><a class="myLink" href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="">
+                            <p class="fw-bold mb-0">Follow US</p>
+                            <div class="d-flex gap-3 mt-1">
+                                <i class="fa-brands fa-square-twitter fs-4"></i>
+                                <i class="fa-brands fa-square-facebook fs-4"></i>
+                                <i class="fa-brands fa-square-youtube fs-4"></i>
+                                <i class="fa-brands fa-square-instagram fs-4"></i>
+                            </div>
+
+                            <div class="d-flex gap-2 mt-4 ms-3">
+                                <img src="images/iconAppStoreEN_noinline.a731d99c8218d6faa0e83a6d038d08e8.svg"
+                                    alt="App Store" width="80" class="bb5713d0">
+                                <img src="images/iconGooglePlayEN_noinline.9892833785b26dd5896b7c70b089f684.svg"
+                                    alt="App Store" width="80" class="bb5713d0">
+                                <img src="images/iconAppGallery_noinline.6092a9d739c77147c884f1f7ab3f1771.svg"
+                                    alt="App Store" width="80" class="bb5713d0">
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-dark">
+            <div class="container text-end py-2">
+                <span class="text-white fw-light">Free Classified in Pakistan &#169; 2006-2024 OLX</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
