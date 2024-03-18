@@ -19,10 +19,21 @@
 }
 
 .bg-gray-subtle {
-    background-color:#ebeeef ;
+    background-color: #ebeeef;
 }
 
 .myLink {
     text-decoration: none;
     color: #222121;
+}
+
+.myposition {
+    bottom: 20px;
+    right: 20px;
+}
+
+.z-index {
+    z-index: 100;
+    left: 30%;
+    display: none;
 }
